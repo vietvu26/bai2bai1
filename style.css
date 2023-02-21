@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: rgb(105, 184, 105);
+    height: 50px;
+  }
+.content-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+  
+.column {
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+img {
+    width: 100%;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
